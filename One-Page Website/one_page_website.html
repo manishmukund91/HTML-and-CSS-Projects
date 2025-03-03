@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><center>  
-  <nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One-Page Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation Section -->
+    <nav>
         <ul>
             <a href="#home">Home</a>
             <a href="#gallery">Gallery</a>
@@ -9,28 +17,26 @@
             <a href="#video">Video</a>
         </ul>
     </nav>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>One-Page Website</title>
-</head>
-<body>
+
     <!-- Home Section -->
     <section id="home">
         <h1>Welcome to My One-Page Website</h1>
         <p>This is a brief introduction about the website.</p>
     </section>
-    <link rel="stylesheet" href="css/style.css">
 
     <!-- Pictures Section -->
     <section id="gallery">
         <h2>Gallery</h2>
-       
-        <img src="images/small1.jpg" data-large="images/large1.jpg" class="gallery">
-        <img src="images/small2.jpg" data-large="images/large2.jpg" class="gallery">
+    
+        <div class="gallery">
+            <img src="images/small1.jpg" data-large="images/large1.jpg" class="gallery" alt="Image 1">
+            <img src="images/small2.jpg" data-large="images/large2.jpg" class="gallery" alt="Image 2">
+            <img src="images/small3.jpg" data-large="images/large3.jpg" class="gallery" alt="Image 3">
+            <img src="images/small4.jpg" data-large="images/large4.jpg" class="gallery" alt="Image 4">
+            <img src="images/small5.jpg" data-large="images/large5.jpg" class="gallery" alt="Image 5">
+        </div>
     </section>
-
-   
-
+    
 
     <!-- Contact Form Section -->
     <section id="contact">
@@ -49,25 +55,18 @@
     <!-- Video Section -->
     <section id="video">
         <h2>Watch Our Video</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/jXHOHOYkbYc" title="Andy: A Dog&#39;s Tale | Full Film | Canine Companions #animation #puppy #servicedog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jXHOHOYkbYc" 
+                title="Andy: A Dog's Tale | Full Film | Canine Companions" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
 
     <!-- Footer Section -->
     <footer>
         <p>&copy; 2025 My One-Page Website. All rights reserved.</p>
-    
+    </footer>
 
-    <!-- Navigation Section -->
-    <nav>
-          <ul>
-            <a href="#home">Home</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#contact">Contact</a>
-            <a href="#video">Video</a>
-        </ul>
-    </nav></footer>
-
-<script src="JS/one_page_website.js"></script>
-
-</center></body>
+    <!-- JavaScript placed at the end -->
+    <script src="JS/one_page_website.js"></script>
+</body>
 </html>
